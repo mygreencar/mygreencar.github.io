@@ -1,17 +1,16 @@
-{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MyGreenCar</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
     <script src="https:////ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="static/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -19,7 +18,7 @@
     <div class="container-fluid">
         <div class="lab-logo-top">
           <a href="http://lbl.gov">
-            <img src="{% static 'images/BerkeleyLab-ScienceSolutions.gif' %}">
+            <img src="static/images/BerkeleyLab-ScienceSolutions.gif">
           </a>
         </div>
         <div class="navbar-header">
@@ -29,8 +28,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{% url 'index' %}">
-              <img alt="MyGreenCar-logo" src="{% static 'images/mygreencar-logo.gif' %}">
+            <a class="navbar-brand" href="#">
+              <img alt="MyGreenCar-logo" src="static/images/mygreencar-logo.gif">
             </a>
         </div>
 
@@ -44,10 +43,10 @@
 </nav>
 
   <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+  <link rel="stylesheet" href="static/css/magnific-popup.css">
 
   <!-- Magnific Popup core JS file -->
-  <script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+  <script src="static/js/jquery.magnific-popup.js"></script>
 
   <!-- Front facing code starts here -->
   <div id="test-modal" class="white-popup-block mfp-hide">
@@ -77,7 +76,7 @@
         </script> -->
       </div>
       <div class="col-sm-6 col-sm-pull-6 col-lg-4 col-lg-pull-4">
-        <img class="header-img" src="{% static 'images/header-img.png' %}">
+        <img class="header-img" src="static/images/header-img.png">
       </div>
       <div class="col-sm-12 col-lg-4 col-lg-pull-4" style="height: 100%;">
         <div class="center-tagline">
@@ -89,15 +88,15 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 banner">
-        <img src="{% static 'images/swoosh.png' %}">
+        <img src="static/images/swoosh.png">
         <h2>What is MyGreenCar?</h2>
-        <img src="{% static 'images/car-individual.png' %}">
+        <img src="static/images/car-individual.png">
       </div>
     </div>
   </div>
   <div class="row step about">
     <div class="col-xs-12 step-description" id="first-step">
-      <img src="{% static 'images/main_page_3.png' %}" class="left" id="first-step-img">
+      <img src="static/images/main_page_3.png" class="left" id="first-step-img">
       <div class="center-table first-center">
         <p>
           MyGreenCar gives you a virtual test drive to take the uncertainty out of choosing the greenest car for <i><b>your unique</i></b> driving.
@@ -112,16 +111,16 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12 banner">
-        <img src="{% static 'images/swoosh.png' %}">
+        <img src="static/images/swoosh.png">
         <h2>How it works...</h2>
-        <img src="{% static 'images/car-individual.png' %}">
+        <img src="static/images/car-individual.png">
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row step">
       <div class="col-sm-12 step-description" style="max-width: 1500px; float: none;margin-left: auto; margin-right: auto;">
-        <img src="{% static 'images/main_page_1.png' %}" class="right">
+        <img src="static/images/main_page_1.png" class="right">
         <div class="step-title"><b>Use the App</b></div>
         <div class="center-table second-center" style="float: right;">
           <p>
@@ -134,7 +133,7 @@
     </div>
     <div class="row step">
       <div class="col-sm-12 step-description calculates-step">
-        <img src="{% static 'images/NERSC-edison.gif' %}" class="left">
+        <img src="static/images/NERSC-edison.gif" class="left">
         <div class="step-title"><b>MyGreenCar Calculates</b></div>
         <div class="center-table third-center">
           <p>
@@ -145,7 +144,7 @@
     </div>
     <div class="row step">
       <div class="col-sm-12 step-description">
-        <img src="{% static 'images/main_page_2.png' %}" class="right">
+        <img src="static/images/main_page_2.png" class="right">
         <div class="step-title"><b>Compare your cars for your driving</b></div>
         <div class="center-table fourth-center"  style="float: right;">
           <p>
@@ -208,7 +207,7 @@
       <div class="col-xs-12">
         <div class="media-flex">
           <a href="https://www.popsci.com/virtual-test-drive-for-green-cars">
-            <img src="{% static 'images/popular-science.png' %}">
+            <img src="static/images/popular-science.png">
           </a>
           <a href="https://ipo.lbl.gov/mgc_lab-corps/" class="doe-lab-corps">
             <p>DOE LabCorps</p>
@@ -223,7 +222,7 @@
   <div class="row info-contact">
     <div class="col-xs-12">
       <a href="https://www.lbl.gov">
-        <img src="{% static 'images/berkeley-lab-logo.gif' %}">
+        <img src="static/images/berkeley-lab-logo.gif">
       </a>
       <p class="info-text">
         Developed by
