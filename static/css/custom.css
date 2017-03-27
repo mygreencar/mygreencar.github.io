@@ -1,0 +1,28 @@
+
+
+.navbar-fixed-top {
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* Navbar */
+
+.navbar-fixed-top a {
+  color: #fff;
+  font-size: 17px;
+  font-family: 'HelveticaNeue-Light';
+}
+
+.navbar-collapse {
+	color: #fff;
+}
+
+
+.navbar-fixed-top .navbar-nav:hover a,
+.navbar-fixed-top .navbar-nav:active a,
+.navbar-fixed-top .navbar-nav:focus a {
+	color: #000;
+}
+
+.btn {
+    border-radius: 0px;
+}

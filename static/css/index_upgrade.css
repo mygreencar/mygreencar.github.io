@@ -1,0 +1,162 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.5;
+}
+
+/* Navbar */
+
+.navbar-fixed-top a {
+  color: #fff;
+  font-size: 17px;
+  font-family: 'HelveticaNeue-Light';
+}
+
+.navbar-fixed-top:hover a,
+.navbar-fixed-top:active a,
+.navbar-fixed-top:focus a,
+ {
+    background-color: #1D693C;
+    color: #000;
+}
+
+.panel {
+  height:200px;
+  width: auto;
+  padding-bottom: 30px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 50px
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 60%;
+}
+
+header .carousel h2{
+    font-family: 'HelveticaNeue-Light'
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+/* Container */
+
+.container .row .panel {
+    min-height: 220px;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+
+}
+
+
+/* trips page */
+
+.sidebar-nav {
+  padding-top: 20px;
+}
+
+.sidebar-nav li {
+  padding-top: 30px;
+}
+
+.modal-footer button {
+  background-color: #006400;
+  border-radius: 5px
+}
+
+.modal-footer li {
+  color: #fff;
+}
+
+.name h1 {
+  font-size: 50px;
+}
+
+.name h3,
+.name h1 {
+  color: #000;
+}
+
+
+.trips li {
+  font-size: 20px
+}
+
+.trips-header h5 {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  padding-top: 20px;
+}

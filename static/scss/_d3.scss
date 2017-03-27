@@ -1,0 +1,183 @@
+
+.axis text {
+  font-size: .75em;
+}
+#map{
+    background-color: none;
+    width: 100%;
+    height: 400px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+.bar-text{
+    fill: $dark;
+    font-size: .75em;
+    font-weight: 800;
+}
+.chart .chart-title{
+    font-weight: 300;
+    font-size: 1.5em;
+}
+.chart #my-car{
+    fill: #f1c40f;
+}
+.chart .EV,
+.chart .electrical{
+    /*fill: #46C26D;*/
+    fill: #27ae60;
+}
+.chart .conventional{
+    fill: #d35400;
+}
+/* legend styles from trips.html */
+.my-legend .legend-title {
+      text-align: left;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 90%;
+    }
+    .my-legend .legend-scale ul {
+      margin: 0;
+      padding: 0;
+      float: left;
+      list-style: none;
+    }
+    .my-legend .legend-scale ul li {
+      display: block;
+      float: left;
+      width: 50px;
+      margin-bottom: 6px;
+      text-align: center;
+      font-size: 80%;
+      list-style: none;
+    }
+    .my-legend .legend-gradient{
+        width: 350px;/* 50px * 7*/
+        height: 15px;
+        background: black; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #d35400, #27ae60); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #d35400, #27ae60); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #d35400, #27ae60); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(right, #d35400, #27ae60); /* Standard syntax */
+    }
+    .my-legend ul.legend-labels li span {
+      display: block;
+      float: left;
+      height: 15px;
+      width: 50px;
+    }
+    .my-legend a {
+      color: #777;
+      margin-bottom: 100px;
+    }
+    .clear-button {
+      font: 14px sans-serif;
+      cursor: pointer;
+    }
+
+    .brush .extent {
+      stroke: #fff;
+      fill-opacity: .125;
+      shape-rendering: crispEdges;
+    }
+
+    .line {
+      fill: none;
+      stroke: steelblue;
+      stroke-width: 1.5px;
+    }
+    .axis line,
+    .axis path {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .axis text {
+      text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+      cursor: move;
+    }
+
+    .ySOC line,
+    .ySOC path {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .ySOC text {
+      text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+      cursor: move;
+    }
+
+    .yGas line,
+    .yGas path {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .yGas text {
+      text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+      cursor: move;
+    }
+
+    .ySpeed line,
+    .ySpeed path {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .ySpeed text {
+      text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+      cursor: move;
+    }    
+
+    .yAltitude line,
+    .yAltitude path {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .yAltitude text {
+      text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+      cursor: move;
+    }
+
+    .my-legend .legend-title {
+      text-align: left;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 90%;
+    }
+    .my-legend .legend-scale ul {
+      margin: 0;
+      padding: 0;
+      float: left;
+      list-style: none;
+    }
+    .my-legend .legend-scale ul li {
+      display: block;
+      float: left;
+      width: 50px;
+      margin-bottom: 6px;
+      text-align: center;
+      font-size: 80%;
+      list-style: none;
+    }
+    .my-legend ul.legend-labels li span {
+      display: block;
+      float: left;
+      height: 15px;
+      width: 50px;
+    }
+    .my-legend a {
+      color: #777;
+      margin-bottom: 100px;
+    }

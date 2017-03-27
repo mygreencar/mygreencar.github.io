@@ -1,0 +1,233 @@
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #46C26D;
+$secondary-color: #ec5525;
+$neutral: #ecf0f1;
+$dark: #333333;
+@import 'd3';
+@import 'mixins';
+body{ background-color: $neutral;  }
+h1, h2, h3, h4, h5, h6, p, div{ font-family: $font-stack; }
+.text-light{ font-weight: 300; }
+h1{ @extend .text-light; }
+h2{ @extend .text-light; }
+.btn.btn-primary{
+    border: none;
+    background: none;
+    background-color: $dark;
+    padding: 12px;
+    &:hover{
+        background: none;
+        background-color: $primary-color;
+    }
+}
+a{
+    &:link{
+        text-decoration: none;
+        color: inherit;
+    }
+    &:visited{
+        text-decoration: none;
+        color: inherit;
+    }
+    &:hover{
+        text-decoration: none;
+        color: $primary-color;
+    }
+    &:active{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+.card{
+    box-sizing: border-box;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    background-color: white;
+    @include box-shadow(0, 2px, 3px, rgba(0, 0, 0, 0.2));
+    .card-title{
+        background-color: $primary-color;
+        color: white;
+        font-weight: 300;
+    }
+    .card-body{
+        padding: 15px;
+    }
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    text-shadow: none;
+    &:hover{ color: $primary-color;}
+}
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    background: none;
+    background-color: $dark;
+    .navbar-brand{
+        color: $primary-color;
+        padding : 5px;
+        & > *{
+            display: inline-block;
+        }
+        img{
+            max-height: 100%;
+            margin-right: 10px;
+        }
+    }
+    .nav a:hover{
+        color: $primary-color;
+    }
+    .nav li.active a{
+        background: none;
+        background-image: none;
+        box-shadow: none;
+        font-weight: 600;
+    }
+}
+.jumbotron.header{
+    text-align: center;
+    color: white;
+    background: none;
+    background-color: $primary-color;
+    .header-img, .header-text{
+        display: inline-block;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+    .header-text{
+        padding-top: 60px;
+        vertical-align: middle;
+        display: inline-block;
+        float: none;
+    }
+    .header-img{ 
+        vertical-align: middle;
+        display: inline-block;
+        float: none;
+        max-width: 350px;
+    }
+    .header-text h1{
+        font-size: 3.5em;
+    }
+}
+#trip-summary{
+    span.glyphicon{
+        color: $primary-color;
+        display: block;
+        font-size: 2em;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .card-body div+div{
+        border-left: 1px solid $neutral;
+    }
+}
+#profile-summary{
+    padding: 40px 20px;
+    .profile-info{
+        .username{
+            font-weight: 300;
+        }
+        span.glyphicon{
+            color: $primary-color;
+            margin-right: 5px;
+        }
+        div{ margin: .5em 0; }
+    }
+    .profile-picture-container{
+        width: 90%;
+        height: 100%;
+        max-width: 250px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+    .profile-picture{
+        width: 100%;
+        height: auto;
+    }
+}
+.step{
+    .step-description{ 
+        color: white;
+        padding: 80px;
+    }
+    .step-image{
+        box-sizing: border-box;
+        padding: 80px;
+        text-align: center;
+        img{
+            width: 100%;
+        }
+    }
+    .step-title{
+        font-size: 2em;
+        font-weight: 300;
+        margin-bottom: 1em;
+    }
+    p{
+        font-size: 1.2em;
+        line-height: 2;
+    }
+    img{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+.step:nth-child(1){ background-color: #3FC380; }
+.step:nth-child(2){ background-color: #019875; }
+.step:nth-child(3){ background-color: #87D37C; }
+.step:nth-child(even){
+    .step-description{ text-align: left; }
+}
+.step:nth-child(odd){
+    .step-description{ text-align: right; }
+}
+.banner{
+    padding: 20px 0;
+    text-align: center;
+    * {
+        display: inline-block;
+        vertical-align: text-bottom;
+    }
+}
+.banner-inverted{
+    background-color: $primary-color;
+    color: white;
+}
+.footer{
+    padding: 30px 0;
+    background-color: $dark;
+    color: white;
+    ul{ list-style: none; }
+    li{ margin: .5em 0; }
+    ul li:nth-child(1){ 
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+select{
+    width: 100%;
+    max-width: 400px;
+    height: 3em;
+    border: none;
+}
+#car-select .col-xs-12{
+    padding: 20px;
+}
+form#remove-single input{
+    margin: 1em;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    #trip-summary{
+        .card-body div+div{
+            border-top: 1px solid $neutral;
+        }
+    }
+}

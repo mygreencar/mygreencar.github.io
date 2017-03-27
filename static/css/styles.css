@@ -1,0 +1,1143 @@
+.axis text {
+  font-size: .75em; }
+
+#map {
+  background-color: none;
+  width: 100%;
+  height: 400px; }
+
+.alert-confirmations {
+  position:fixed;
+  z-index:5;
+  top:0;
+  left:0;
+  right:0;
+  display:none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges; }
+
+.bar-text {
+  fill: #333333;
+  font-size: .75em;
+  font-weight: 800; }
+
+.chart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chart .chart-title {
+  font-weight: 300;
+  font-size: 1.5em; }
+
+.chart #my-car {
+  fill: #f1c40f; }
+
+/* legend styles from trips.html */
+.my-legend .legend-title {
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 90%; }
+
+.my-legend .legend-scale ul {
+	  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none; }
+
+.my-legend .legend-scale ul li {
+  display: block;
+  float: left;
+  width: 50px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 80%;
+  list-style: none; }
+
+.my-legend .legend-gradient {
+  width: 350px;
+  /* 50px * 7*/
+  height: 15px;
+  background: black;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #d35400, #27ae60);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #d35400, #27ae60);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #d35400, #27ae60);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, #d35400, #27ae60);
+  /* Standard syntax */ }
+
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 15px;
+  width: 50px; }
+
+.my-legend a {
+  color: #777;
+  margin-bottom: 100px; }
+
+.clear-button {
+  font: 14px sans-serif;
+  cursor: pointer; }
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges; }
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px; }
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.ySOC line,
+.ySOC path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.ySOC text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.yGas line,
+.yGas path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.yGas text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.ySpeed line,
+.ySpeed path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.ySpeed text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.yUsers line,
+.yUsers path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.yUsers text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.yTrips line,
+.yTrips path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.yTrips text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.yHours line,
+.yHours path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.yHours text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.yMiles line,
+.yMiles path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.yMiles text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.yAltitude line,
+.yAltitude path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.yAltitude text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move; }
+
+.my-legend .legend-title {
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 90%; }
+
+.my-legend .legend-scale ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none; }
+
+.my-legend .legend-scale ul li {
+  display: block;
+  float: left;
+  width: 50px;
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 80%;
+  list-style: none; }
+
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 15px;
+  width: 50px; }
+
+.my-legend a {
+  color: #777;
+  margin-bottom: 100px; }
+
+body {
+  background-color: #ecf0f1; }
+
+h1, h2, h3, h4, h5, h6, p, div {
+  font-family: "Roboto", sans-serif; }
+
+.text-light, h1, h2 {
+  font-weight: 300; }
+
+.btn.btn-primary {
+  border: none;
+  background: none;
+  background-color: #333333;
+  padding: 12px; }
+  .btn.btn-primary:hover {
+    background: none;
+    background-color: #46c26d; }
+
+a:link {
+  text-decoration: none; }
+a:visited {
+  text-decoration: none; }
+a:hover {
+  text-decoration: none;
+  color: #46c26d; }
+a:active {
+  text-decoration: none;
+  color: inherit; }
+
+.card {
+  box-sizing: border-box;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) ; }
+  .card .card-title {
+    background-color: #46c26d;
+    color: white;
+    font-weight: 300; }
+  .card .card-body {
+    padding: 15px; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  text-shadow: none; }
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #46c26d; }
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: none;
+  background-color: #333333; }
+  .navbar .navbar-brand {
+    color: #46c26d;
+    padding: 5px; 
+    z-index: 100;}
+    .navbar .navbar-brand > * {
+      display: inline-block; }
+    .navbar .navbar-brand img {
+      max-height: 100%; }
+  .navbar .nav a:hover {
+    color: #46c26d; }
+  .navbar .nav li.active a {
+    background: none;
+    background-image: none;
+    box-shadow: none;
+    font-weight: 600; }
+
+.jumbotron.header {
+  text-align: center;
+  color: white;
+  background: none;
+  background-color: #46c26d; }
+  .jumbotron.header .header-img {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle; }
+  .jumbotron.header .header-text {
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+  .jumbotron.header .header-img {
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+    width: 350px; 
+    max-width: 80vw; }
+  .jumbotron.header .header-text h1 {
+    font-size: 3.5em; }
+
+#trip-summary span.glyphicon {
+  color: #46c26d;
+  display: block;
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0; }
+#trip-summary .card-body div + div {
+  border-left: 1px solid #ecf0f1; }
+
+#profile-summary {
+  padding: 40px 20px; }
+  #profile-summary .profile-info .username {
+    font-weight: 300; }
+  #profile-summary .profile-info span.glyphicon {
+    color: #46c26d;
+    margin-right: 5px; }
+  #profile-summary .profile-info div {
+    margin: .5em 0; }
+  #profile-summary .profile-picture-container {
+    width: 90%;
+    height: 100%;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 100%;
+    overflow: hidden; }
+  #profile-summary .profile-picture {
+    width: 100%;
+    height: auto; }
+
+.step .step-description {
+  color: white;
+  /* limit width to 1500px */
+  max-width: 1500px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.step .step-image {
+  box-sizing: border-box;
+  padding: 80px;
+  text-align: center; }
+  .step .step-image img {
+    width: 100%; }
+.step .step-title {
+  font-size: 2.2em;
+  font-weight: 300; }
+  
+.step p, .step li {
+  font-size: 1.6em;
+  line-height: 2; }
+.step img {
+  margin-right: auto;
+  margin-left: auto; }
+
+.step:nth-child(3n+1) {
+  background-color: #3FC380; }
+
+.step:nth-child(3n+2) {
+  background-color: #019875; }
+
+.step:nth-child(3n+0) {
+  background-color: #87D37C; }
+
+.step:nth-child(even) .step-description {
+  text-align: left; }
+
+.step:nth-child(odd) .step-description {
+  text-align: right; }
+
+.banner {
+  padding: 20px 0;
+  text-align: center; }
+  .banner * {
+    display: inline-block;
+    vertical-align: text-bottom; }
+
+.banner-inverted {
+  background-color: #46c26d;
+  color: white; }
+
+.footer {
+  padding: 30px 0;
+  background-color: #333333;
+  color: white; }
+  .footer ul {
+    list-style: none; }
+  .footer li {
+    margin: .5em 0; }
+  .footer ul li:nth-child(1) {
+    font-size: 1.6em;
+    font-weight: 600; }
+
+select {
+  width: 100%;
+  max-width: 400px;
+  height: 3em;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+select:disabled {
+  background-color: #d3d3d3;
+  cursor:default;
+}
+
+#car-select .col-xs-12 {
+  padding: 20px; }
+
+form#remove-single input {
+  margin: 1em; }
+
+.unit-select-container {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.annual-info {
+  display: none;
+}
+
+.trip-plot-svg {
+  /* center the plot */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trip-plot-svg, .miles-timeline, .miles-legend {
+  /* stop accidental highlighting of the text */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;
+}
+
+
+
+/* for trip timeline on profile page' */
+.y-axis .tick {
+  font-size: 20px;
+}
+
+.trip-plot-point {
+  fill: #d35400;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+#trip-timeline-date, #trip-timeline-start-date {
+  display: inline-block;
+  width: 100px;
+  float: left;
+  vertical-align: top;
+  font-size: 18px;
+}
+
+.gray-line {
+    stroke: #cccccc;
+    stroke-width: 1px;
+    z-index: -1;
+}
+
+.not-displayed {
+  display: none;
+}
+
+.trip-timeline-info {
+  font-size: 16px;
+}
+
+.miles-y-axis text {
+  font-size: 18px;
+}
+
+.min-mi-timeline .tick text {
+  font-size: 18px;
+}
+
+/* ensure the two miles timelines aren't centered, using svg
+ to ensure the .chart styles are overridden */
+svg.miles-timeline,
+svg.min-mi-timeline {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.miles-timeline {
+  margin-bottom: 40px;
+}
+
+/* Hide the trip plot on smaller devices */
+@media only screen and (max-width: 750px) {
+  .trip-timeline-container {
+    display: none;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  #trip-summary .card-body div + div {
+    border-top: 1px solid #ecf0f1; } }
+
+.location-form {
+  width: 300px;
+}
+
+.location-form input {
+  width: 100%;
+}
+
+
+.location-form input, .location-form select {
+  margin-bottom: 5px;
+}
+
+.location-form input[type="submit"], .location-form button {
+  width: 50%;
+}
+
+.scoreboard {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.scoreboard .title {
+  font-size: 250%;
+}
+
+#locations-map-legend {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.location-submit {
+  float:right;
+  color:white;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:5px;
+  border:0px;
+  background: #46c26d;
+}
+
+.location-submit:disabled {
+  background:gray;
+}
+
+.location-submit:hover:enabled {
+  background:#60dc87;
+}
+
+
+/*THE WAITING CUBE*/
+.cssload-thecube {
+  display: none;
+  position: fixed;
+  left: calc(50% - 36px);
+  top: calc(50% - 36px);
+  width: 73px;
+  height: 73px;
+  transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+  position: relative;
+  transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+.cssload-thecube .cssload-cube:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(39, 174, 96);
+  animation: cssload-fold-thecube 2.76s infinite linear both;
+    -o-animation: cssload-fold-thecube 2.76s infinite linear both;
+    -ms-animation: cssload-fold-thecube 2.76s infinite linear both;
+    -webkit-animation: cssload-fold-thecube 2.76s infinite linear both;
+    -moz-animation: cssload-fold-thecube 2.76s infinite linear both;
+  transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+}
+.cssload-thecube .cssload-c2 {
+  transform: scale(1.1) rotateZ(90deg);
+    -o-transform: scale(1.1) rotateZ(90deg);
+    -ms-transform: scale(1.1) rotateZ(90deg);
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    -moz-transform: scale(1.1) rotateZ(90deg);
+}
+.cssload-thecube .cssload-c3 {
+  transform: scale(1.1) rotateZ(180deg);
+    -o-transform: scale(1.1) rotateZ(180deg);
+    -ms-transform: scale(1.1) rotateZ(180deg);
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    -moz-transform: scale(1.1) rotateZ(180deg);
+}
+.cssload-thecube .cssload-c4 {
+  transform: scale(1.1) rotateZ(270deg);
+    -o-transform: scale(1.1) rotateZ(270deg);
+    -ms-transform: scale(1.1) rotateZ(270deg);
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    -moz-transform: scale(1.1) rotateZ(270deg);
+}
+.cssload-thecube .cssload-c2:before {
+  animation-delay: 0.35s;
+    -o-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    -webkit-animation-delay: 0.35s;
+    -moz-animation-delay: 0.35s;
+}
+.cssload-thecube .cssload-c3:before {
+  animation-delay: 0.69s;
+    -o-animation-delay: 0.69s;
+    -ms-animation-delay: 0.69s;
+    -webkit-animation-delay: 0.69s;
+    -moz-animation-delay: 0.69s;
+}
+.cssload-thecube .cssload-c4:before {
+  animation-delay: 1.04s;
+    -o-animation-delay: 1.04s;
+    -ms-animation-delay: 1.04s;
+    -webkit-animation-delay: 1.04s;
+    -moz-animation-delay: 1.04s;
+}
+
+
+
+@keyframes cssload-fold-thecube {
+  0%, 10% {
+    transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+        75% {
+    transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+        100% {
+    transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes cssload-fold-thecube {
+  0%, 10% {
+    -o-transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+        75% {
+    -o-transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+        100% {
+    -o-transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes cssload-fold-thecube {
+  0%, 10% {
+    -ms-transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+        75% {
+    -ms-transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+        100% {
+    -ms-transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes cssload-fold-thecube {
+  0%, 10% {
+    -webkit-transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+        75% {
+    -webkit-transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+        100% {
+    -webkit-transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes cssload-fold-thecube {
+  0%, 10% {
+    -moz-transform: perspective(136px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+        75% {
+    -moz-transform: perspective(136px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+        100% {
+    -moz-transform: perspective(136px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+
+/* New home page styling */
+body, html {
+  overflow-x: hidden;
+}
+
+.center-tagline {
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-tagline p {
+  margin-bottom: 0px;
+}
+
+/* for smaller screens, don't make center-tagline
+   as tall as the header-img */
+@media only screen and (max-width: 1199px) {
+  .center-tagline {
+    height: auto;
+    padding-top; 10px;
+  }
+}
+
+/* mobile screens, no need to center header text */
+@media only screen and (max-width: 768px) {
+  .header-img {
+    padding-top: 10px;
+  }
+  .jumbotron.header .header-text {
+    display: inline-block;
+    height: auto;
+  }
+}
+
+.center-tagline p {
+  font-size: 1.6em;
+  line-height: 2;
+}
+
+.item img {
+  max-height: 500px;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid {
+  width: 100%;
+}
+.carousel-control {
+  width: 50px;
+}
+.step.about p, .step.about ul {
+  text-align: left;
+}
+.step.about ul {
+  /* so that bullets don't overlap img */
+  overflow: hidden;
+}
+.step.about li {
+  font-size: 1.6em;
+}
+.about img {
+  padding-right: 20px;
+  max-width: 60vw;
+}
+.about h3 {
+  text-align: center;
+}
+button.btn.btn-primary.sign-up-btn {
+  width: 300px;
+  height: 100px;
+  font-size: 30px;
+  background-color: #333333;
+}
+button.btn.btn-primary.sign-up-btn:hover {
+  background-color: #3798D3;
+}
+button.btn.btn-primary.sign-up-btn:focus {
+  outline-width: 0;
+}
+.step-description img {
+  width: 375px;
+  max-width: 80vw;
+  max-height: 400px;
+}
+#first-step {
+  padding-bottom: 0px;
+}
+#first-step-img {
+  width: 320px;
+}
+.smaller-image
+.jumbotron {
+  padding: 0;
+  margin: 0;
+}
+.row.step .step-description {
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+.calculates-step img {
+  width: 330px;
+}
+.header-text {
+  vertical-align: middle;
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.left {
+  float: left;
+  padding-right: 20px
+}
+.right {
+  float: right;
+  padding-left: 20px;
+}
+.video {
+  width: 560px;
+  max-width:560px;
+  height: 315px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.info-contact {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.info-contact img {
+  width: 100px;
+  padding-right: 15px;
+  /*position: absolute;
+  left: 20px;*/
+  float: left;
+}
+.info-contact .info-text {
+  text-align: left;
+  /*padding-left: 110px;*/
+}
+.info-contact a {
+ text-decoration: underline;
+}
+.info-contact {
+  font-size: 1.6em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 650px) {
+    .lab-logo-top, .lab-logo-logged-in {
+      display: none;
+    }
+    .row .step-description img {
+      float: none;
+      display: block;
+    }
+    .video {
+      margin-top: 0px;
+    }
+    .media-flex {
+      padding-bottom: 20px;
+    }
+}
+.jumbotron.welcome-header {
+  margin-bottom: 0px;
+}
+/* center table is to center the step-description text when the image's
+   height is greater than step-description's */
+.center-table {
+  display: table;
+}
+.center-table p {
+  display: table-cell;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.table {
+  display: table;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.title-cell {
+  height: 10px;
+}
+
+.doe-lab-corps p {
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: white;
+}
+.doe-lab-corps:hover {
+  color: white;
+}
+.disclaimer {
+  margin-bottom: 5px;
+}
+.disclaimer a {
+  text-decoration: underline;
+}
+.contact-us p {
+  font-size: 1.6em;
+  text-decoration: underline;
+}
+.contact-us:hover {
+  color: white;
+}
+.nersc-row img {
+  width: 310px;
+  max-width: 95vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.lab-logo-top {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 0px; /* prevent div from covering MGC logo */
+    top: 1px;
+    left: 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lab-logo-logged-in {
+  position: absolute;
+  z-index: 0;
+  width: calc(100% - 131px - 474px); /* full width - MGC logo - nav item width */
+  height: 0px;
+  top: 1px;
+  left: 131px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lab-logo-top img, .lab-logo-logged-in img {
+  width: 275px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 991px) {
+  .lab-logo-logged-in {
+    left: 0px;
+    width: 100%;
+  }
+}
+
+.media {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #46c26d;
+  color: white;
+}
+.media a {
+  color: white;
+}
+.media h2 {
+  margin-bottom: 0px;
+}
+.media-flex {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.media-flex img, .media-flex p {
+  max-width: 215px;
+}
+.media-flex p {
+  line-height: 1;
+}
+
+.info-contact .col-xs-12 {
+  /* limit width to 1450px */
+  max-width: 1450px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 650px) {
+
+  .video-col {
+    margin-bottom: 15px;
+  }
+  .doe-lab-corps div {
+    height: 140px; 
+    line-height: 140px;
+    margin-left: 50px;
+  }
+  .center-table.second-center {
+    min-height: 260px;
+  }
+  .center-table.third-center {
+    min-height: 125px;
+  }
+  .center-table.fourth-center {
+    min-height: 150px;
+  }
+  .center-table {
+    display: table;
+    min-height: 300px;
+    /* ensure enough room for the images */
+    width: calc(100% - 415px);
+  }
+  .center-table p {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+  }
+  .center-table.first-center {
+    width: calc(100% - 350px);
+  }
+}
+
+/* Changes to ensure navbar collapses at "sm" width rather than xs 
+   http://stackoverflow.com/a/20249415 */
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
