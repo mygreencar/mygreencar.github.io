@@ -1141,3 +1141,12 @@ button.btn.btn-primary.sign-up-btn:focus {
     }
 }
 
+/* Contact us on home page */
+a.contact-us-link {
+  color: #09e;
+  font-size: 32px;
+  padding: 0 5px;
+}
+a.contact-us-link:hover {
+  color: #fff;
+}
